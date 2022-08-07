@@ -30,9 +30,7 @@ from dataclasses import dataclass
 from typing import Any, List
 from web3 import Web3
 
-#w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
-#Using my development Ganache Server
-w3 = Web3(Web3.HTTPProvider('HTTP://192.168.1.106:7545'))
+w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 
 ################################################################################
 # Step 1:
